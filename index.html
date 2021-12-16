@@ -2,336 +2,676 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-    <link rel="shortcut icon" href="assets/img/logo.png" type="image/png">
-
-    <!--=============== REMIXICONS ===============-->
-    <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
-
-    <!--=============== SWIPER CSS ===============-->
-    <link rel="stylesheet" href="assets/css/swiper-bundle.min.css">
-
-    <!--=============== CSS ===============-->
-    <link rel="stylesheet" href="assets/css/styles.css">
-
-    <title>Rosso Corallo0</title>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Favicon -->
+    <!-- Fontawesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
+    <!-- Boxicons -->
+    <link href="https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css" rel="stylesheet" />
+    <!-- Custom StyleSheet -->
+    <link rel="stylesheet" href="styles.css" />
+    <title>Rosso Corallo</title>
 </head>
 
 <body>
+    <!-- Header -->
     <header class="header" id="header">
-        <nav class="nav container">
-            <a href="#" class="nav__logo"><img src="/assets/img/logo1.png" alt=""></a>
+        <!-- Top Nav -->
 
-            <div class="nav__menu" id="nav-menu">
-                <ul class="nav__list">
-                    <li class="nav__item">
-                        <a href="#home" class="nav__link active-link">Home</a>
+        <div class="navigation">
+            <div class="nav-center container d-flex">
+                <div class="logo">
+                    <img src="/images/logo1.png" height="65px" width="195px" style="margin-top: 8px;">
+                </div>
+
+                <ul class="nav-list d-flex">
+                    <li class="nav-item">
+                        <a href="#header" class="nav-link">Home</a>
                     </li>
-                    <li class="nav__item">
-                        <a href="#about" class="nav__link">Chi siamo</a>
+                    <li class="nav-item">
+                        <a href="#about" class="nav-link">Chi siamo</a>
                     </li>
-                    <li class="nav__item">
-                        <a href="#discover" class="nav__link">Abbigliamento</a>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link">Abbigliamento</a>
                     </li>
-                    <li class="nav__item">
-                        <a href="#video" class="nav__link">Video</a>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link">Video</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link">contact</a>
                     </li>
                 </ul>
-
-                <div class="nav__dark">
-                    <i class="ri-moon-line change-theme" id="theme-button"></i>
+                <div class="hamburger">
+                    <i class="bx bx-menu-alt-left"></i>
                 </div>
+            </div>
+        </div>
+        <br>
 
-                <i class="ri-close-line nav__close" id="nav-close"></i>
+        <div class="hero d-flex">
+            <div class="left">
+                <br><br><br><br>
+                <h2>Prodotti da<br>Personalizzare</h2>
+                <br><br><br><br><br><br><br><br><br><br><br><br>
+                <img src="/images/insta.png" width="55px" alt="">
+                <img src="/images/face.png" width="80px" alt="">
             </div>
 
-            <div class="nav__toggle" id="nav-toggle">
-                <i class="ri-function-line"></i>
-            </div>
-        </nav>
+        </div>
+
     </header>
+    <br><br>
+    <section class="about section" id="about">
+        <div class="about__container container grid">
+            <div class="about__data">
+                <br><br><br><br><br>
+                <h2 class="section__title about__title">Chi siamo?</h2>
+                <br>
+                <p class="about__description">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ut ratione temporibus voluptatum itaque tempora, numquam atque deleniti quidem in. Eveniet facilis eos repudiandae atque earum hic in rem recusandae velit?</p>
+                <br><br><br><br><br>
+            </div>
+        </div>
+    </section>
 
-    <main class="main">
-        <!--==================== HOME ====================-->
-        <section class="home" id="home">
-            <img src="assets/img/home.jpg" alt="" class="home__img">
+    <br><br><br>
+    <!-- New Arrivals -->
+    <section class="section new-arrival">
+        <div class="title">
+            <h1>UOMO</h1>
+            <p>All the latest picked from designer of our store</p>
+        </div>
 
-            <div class="home__container container grid">
-                <div class="home__data">
-
-                    <h1 class="home__data-title">Abbigliamento</b>
-                    </h1>
-
-
-                </div>
-
-                <div class="home__social">
-                    <a href="https://www.facebook.com/" target="_blank" class="home__social-link">
-                        <i><img src="/assets/img/face.png" width="65px" alt=""></i>
+        <div class="product-center">
+            <div class="product-item">
+                <div class="overlay">
+                    <a href="" class="product-thumb">
+                        <img src="/images/magliettauomo1.jpeg" alt="" />
                     </a>
-                    <a href="https://www.instagram.com/" target="_blank" class="home__social-link">
-                        <i><img src="/assets/img/insta.png" width="48px" alt=""></i>
+                </div>
+                <div class="product-info">
+                    <span>XS - S - M - L - XL - XXL</span>
+                    <a href="">T-Shirt Grigia</a>
+
+                </div>
+            </div>
+            <div class="product-item">
+                <div class="overlay">
+                    <a href="" class="product-thumb">
+                        <img src="./images/pantaloneuomo2.jpg" alt="" />
+                    </a>
+
+                </div>
+
+                <div class="product-info">
+                    <span>XS - S - M - L - XL - XXL</span>
+                    <a href="">Pantalone Grigio</a>
+                </div>
+
+            </div>
+            <div class="product-item">
+                <div class="overlay">
+                    <a href="" class="product-thumb">
+                        <img src="/images/felpauomo1.jpeg" alt="" />
+                    </a>
+                </div>
+                <div class="product-info">
+                    <span>XS - S - M - L - XL - XXL</span>
+                    <a href="">Felpa navy</a>
+                </div>
+
+            </div>
+            <div class="product-item">
+                <div class="overlay">
+                    <a href="" class="product-thumb">
+                        <img src="/images/felpauomo2.png" alt="" />
+                    </a>
+
+                </div>
+                <div class="product-info">
+                    <span>XS - S - M - L - XL - XXL</span>
+                    <a href="">Felpa blu</a>
+                </div>
+
+            </div>
+            <div class="product-item">
+                <div class="overlay">
+                    <a href="" class="product-thumb">
+                        <img src="/images/felpauomo3.jpg" alt="" />
+                    </a>
+                </div>
+                <div class="product-info">
+                    <span>XS - S - M - L - XL - XXL</span>
+                    <a href="">Felpa senza capuccio verde</a>
+                </div>
+
+            </div>
+            <div class="product-item">
+                <div class="overlay">
+                    <a href="" class="product-thumb">
+                        <img src="/images/polouomo1.jpeg" alt="" />
+                    </a>
+                </div>
+                <div class="product-info">
+                    <span>XS - S - M - L - XL - XXL</span>
+                    <a href="">T-Shirt Grigia</a>
+                </div>
+
+            </div>
+            <div class="product-item">
+                <div class="overlay">
+                    <a href="" class="product-thumb">
+                        <img src="/images/giubottouomo2.jpeg" alt="" />
+                    </a>
+
+                </div>
+                <div class="product-info">
+                    <span>XS - S - M - L - XL - XXL</span>
+                    <a href="">T-Shirt Grigia</a>
+                </div>
+
+            </div>
+            <div class="product-item">
+                <div class="overlay">
+                    <a href="" class="product-thumb">
+                        <img src="/images/giubottouomo1.jpeg" alt="" />
+                    </a>
+                </div>
+                <div class="product-info">
+                    <span>XS - S - M - L - XL - XXL</span>
+                    <a href="">T-Shirt Grigia</a>
+                </div>
+
+            </div>
+        </div>
+    </section>
+    <br><br><br><br><br>
+    <!-- Featured -->
+
+    <section class="section new-arrival">
+        <div class="title">
+            <h1>Donna</h1>
+            <p>All the latest picked from designer of our store</p>
+        </div>
+
+        <div class="product-center">
+            <div class="product-item">
+                <div class="overlay">
+                    <a href="" class="product-thumb">
+                        <img src="./images/magliettadonna1.jpeg" alt="" />
+                    </a>
+                </div>
+                <div class="product-info">
+                    <span>XS - S - M - L - XL - XXL</span>
+                    <a href="">T-Shirt Grigia</a>
+                </div>
+
+            </div>
+            <div class="product-item">
+                <div class="overlay">
+                    <a href="" class="product-thumb">
+                        <img src="./images/magliettadonna2.jpeg" alt="" />
                     </a>
                 </div>
 
+                <div class="product-info">
+                    <span>XS - S - M - L - XL - XXL</span>
+                    <a href="">T-Shirt Grigia</a>
+                </div>
 
             </div>
-        </section>
-
-        <!--==================== ABOUT ====================-->
-        <section class="about section" id="about">
-            <div class="about__container container grid">
-                <div class="about__data">
-                    <h2 class="section__title about__title">Chi siamo?</h2>
-                    <p class="about__description">You can find the most beautiful and pleasant places at the best prices with special discounts, you choose the place we will guide you all the way to wait, get your place now.
-                    </p>
-
+            <div class="product-item">
+                <div class="overlay">
+                    <a href="" class="product-thumb">
+                        <img src="./images/magliettadonna4.jpeg" alt="" />
+                    </a>
+                </div>
+                <div class="product-info">
+                    <span>XS - S - M - L - XL - XXL</span>
+                    <a href="">T-Shirt Grigia</a>
                 </div>
 
-                <div class="about__img">
-                    <div class="about__img-overlay">
-                        <img src="assets/img/about1.jpg" alt="" class="about__img-one">
+            </div>
+            <div class="product-item">
+                <div class="overlay">
+                    <a href="" class="product-thumb">
+                        <img src="./images/magliettadonna3 (2).jpeg" alt="" />
+                    </a>
+                </div>
+                <div class="product-info">
+                    <span>XS - S - M - L - XL - XXL</span>
+                    <a href="">T-Shirt Grigia</a>
+                </div>
+
+            </div>
+            <div class="product-center">
+                <div class="product-item">
+                    <div class="overlay">
+                        <a href="" class="product-thumb">
+                            <img src="./images/felpadonna1.jpeg" alt="" />
+                        </a>
+                    </div>
+                    <div class="product-info">
+                        <span>XS - S - M - L - XL - XXL</span>
+                        <a href="">T-Shirt Grigia</a>
                     </div>
 
-                    <div class="about__img-overlay">
-                        <img src="assets/img/about2.jpg" alt="" class="about__img-two">
+                </div>
+                <div class="product-item">
+                    <div class="overlay">
+                        <a href="" class="product-thumb">
+                            <img src="./images/felpadonna2.jpg" alt="" />
+                        </a>
                     </div>
+
+                    <div class="product-info">
+                        <span>XS - S - M - L - XL - XXL</span>
+                        <a href="">T-Shirt Grigia</a>
+                    </div>
+
+                </div>
+                <div class="product-item">
+                    <div class="overlay">
+                        <a href="" class="product-thumb">
+                            <img src="./images/felpadonna3.jpg" alt="" />
+                        </a>
+                    </div>
+                    <div class="product-info">
+                        <span>XS - S - M - L - XL - XXL</span>
+                        <a href="">T-Shirt Grigia</a>
+                    </div>
+
+                </div>
+                <div class="product-item">
+                    <div class="overlay">
+                        <a href="" class="product-thumb">
+                            <img src="./images/giubottodonna1.jpg" alt="" />
+                        </a>
+                    </div>
+                    <div class="product-info">
+                        <span>XS - S - M - L - XL - XXL</span>
+                        <a href="">T-Shirt Grigia</a>
+                    </div>
+
+                </div>
+    </section>
+    <br><br><br><br>
+    <section class="section new-arrival">
+        <div class="title">
+            <h1>Bambini</h1>
+            <p>All the latest picked from designer of our store</p>
+        </div>
+
+        <div class="product-center">
+            <div class="product-item">
+                <div class="overlay">
+                    <a href="" class="product-thumb">
+                        <img src="/images/magliettebambini1.jpeg" alt="" />
+                    </a>
+                </div>
+                <div class="product-info">
+                    <span>XS - S - M - L - XL - XXL</span>
+                    <a href="">T-Shirt Grigia</a>
                 </div>
             </div>
-        </section>
-        <h2 class="section__title about__title">UOMO</h2>
-        <div class="w3-content w3-padding" style="max-width:1564px">
-            <div class="w3-row-padding">
-                <div class="w3-col l3 m6 w3-margin-bottom">
-                    <div class="w3-display-container">
+            <div class="product-item">
+                <div class="overlay">
+                    <a href="" class="product-thumb">
+                        <img src="./images/magliettabambini2.jpg" alt="" />
+                    </a>
 
-                        <img src="/assets/img/about1.jpg" alt="come" style="width:100%">
-                        <h4>ciao</h4>
-                    </div>
                 </div>
-                <div class="w3-col l3 m6 w3-margin-bottom">
-                    <div class="w3-display-container">
 
-                        <img src="/assets/img/about2.jpg" alt="House" style="width:100%">
-                        <h4>ciao</h4>
-                    </div>
+                <div class="product-info">
+                    <span>XS - S - M - L - XL - XXL</span>
+                    <a href="">T-Shirt Grigia</a>
                 </div>
-                <div class="w3-col l3 m6 w3-margin-bottom">
-                    <div class="w3-display-container">
 
-                        <img src="/assets/img/fruit.png" alt="House" style="width:100%">
-                        <h4>ciao</h4>
-                    </div>
+            </div>
+            <div class="product-item">
+                <div class="overlay">
+                    <a href="" class="product-thumb">
+                        <img src="/images/felpabambini1.jpg" alt="" />
+                    </a>
                 </div>
-                <div class="w3-col l3 m6 w3-margin-bottom">
-                    <div class="w3-display-container">
-                        <img src="/assets/img/fruit.png" alt="House" style="width:100%">
-                        <h4>ciao</h4>
-                    </div>
+                <div class="product-info">
+                    <span>XS - S - M - L - XL - XXL</span>
+                    <a href="">T-Shirt Grigia</a>
+                </div>
+
+            </div>
+            <div class="product-item">
+                <div class="overlay">
+                    <a href="" class="product-thumb">
+                        <img src="/images/felpabambini2.jpg" alt="" />
+                    </a>
+
+                </div>
+                <div class="product-info">
+                    <span>XS - S - M - L - XL - XXL</span>
+                    <a href="">T-Shirt Grigia</a>
+                </div>
+
+            </div>
+            <div class="product-item">
+                <div class="overlay">
+                    <a href="" class="product-thumb">
+                        <img src="/images/polobambini1.jpg" alt="" />
+                    </a>
+                </div>
+                <div class="product-info">
+                    <span>XS - S - M - L - XL - XXL</span>
+                    <a href="">T-Shirt Grigia</a>
+                </div>
+
+            </div>
+            <div class="product-item">
+                <div class="overlay">
+                    <a href="" class="product-thumb">
+                        <img src="/images/pantalonebambino1.jpg" alt="" />
+                    </a>
+                </div>
+                <div class="product-info">
+                    <span>XS - S - M - L - XL - XXL</span>
+                    <a href="">T-Shirt Grigia</a>
+                </div>
+
+            </div>
+            <div class="product-item">
+                <div class="overlay">
+                    <a href="" class="product-thumb">
+                        <img src="/images/bodybambino1.jpg" alt="" />
+                    </a>
+
+                </div>
+                <div class="product-info">
+                    <span>XS - S - M - L - XL - XXL</span>
+                    <a href="">T-Shirt Grigia</a>
+                </div>
+
+            </div>
+            <div class="product-item">
+                <div class="overlay">
+                    <a href="" class="product-thumb">
+                        <img src="/images/pantaloncinobambino.jpg" alt="" />
+                    </a>
+                </div>
+                <div class="product-info">
+                    <span>XS - S - M - L - XL - XXL</span>
+                    <a href="">T-Shirt Grigia</a>
+                </div>
+
+            </div>
+        </div>
+    </section>
+    <br><br><br><br>
+    <section class="section new-arrival">
+        <div class="title">
+            <h1>Lavoro</h1>
+            <p>All the latest picked from designer of our store</p>
+        </div>
+
+        <div class="product-center">
+            <div class="product-item">
+                <div class="overlay">
+                    <a href="" class="product-thumb">
+                        <img src="/images/felpadivisamiser1.jpeg" alt="" />
+                    </a>
+                </div>
+                <div class="product-info">
+                    <span>XS - S - M - L - XL - XXL</span>
+                    <a href="">T-Shirt Grigia</a>
                 </div>
             </div>
+            <div class="product-item">
+                <div class="overlay">
+                    <a href="" class="product-thumb">
+                        <img src="./images/felpauomocrocerossa.jpeg" alt="" />
+                    </a>
 
-            <div class="w3-row-padding">
-                <div class="w3-col l3 m6 w3-margin-bottom">
-                    <div class="w3-display-container">
-
-                        <img src="/assets/img/fruit.png" alt="House" style="width:99%">
-                        <h4>ciao</h4>
-                    </div>
                 </div>
-                <div class="w3-col l3 m6 w3-margin-bottom">
-                    <div class="w3-display-container">
 
-                        <img src="/assets/img/fruit.png" alt="House" style="width:99%">
-                        <h4>ciao</h4>
-                    </div>
+                <div class="product-info">
+                    <span>XS - S - M - L - XL - XXL</span>
+                    <a href="">T-Shirt Grigia</a>
                 </div>
-                <div class="w3-col l3 m6 w3-margin-bottom">
-                    <div class="w3-display-container">
 
-                        <img src="/assets/img/fruit.png" alt="House" style="width:99%">
-                        <h4>ciao</h4>
-                    </div>
+            </div>
+            <div class="product-item">
+                <div class="overlay">
+                    <a href="" class="product-thumb">
+                        <img src="/images/pantalonedalavorouomo.jpeg" alt="" />
+                    </a>
                 </div>
-                <div class="w3-col l3 m6 w3-margin-bottom">
-                    <div class="w3-display-container">
+                <div class="product-info">
+                    <span>XS - S - M - L - XL - XXL</span>
+                    <a href="">T-Shirt Grigia</a>
+                </div>
 
-                        <img src="/assets/img/fruit.png" alt="House" style="width:99%">
-                        <h4>ciao</h4>
-                    </div>
+            </div>
+            <div class="product-item">
+                <div class="overlay">
+                    <a href="" class="product-thumb">
+                        <img src="/images/granbiuledonna.jpg" alt="" />
+                    </a>
+
                 </div>
+                <div class="product-info">
+                    <span>XS - S - M - L - XL - XXL</span>
+                    <a href="">T-Shirt Grigia</a>
+                </div>
+
+            </div>
+            <div class="product-item">
+                <div class="overlay">
+                    <a href="" class="product-thumb">
+                        <img src="/images/granbiulecorto.jpeg" alt="" />
+                    </a>
+                </div>
+                <div class="product-info">
+                    <span>XS - S - M - L - XL - XXL</span>
+                    <a href="">T-Shirt Grigia</a>
+                </div>
+
+            </div>
+            <div class="product-item">
+                <div class="overlay">
+                    <a href="" class="product-thumb">
+                        <img src="/images/pantalonedalavorouomo.jpg" alt="" />
+                    </a>
+                </div>
+                <div class="product-info">
+                    <span>XS - S - M - L - XL - XXL</span>
+                    <a href="">T-Shirt Grigia</a>
+                </div>
+
+            </div>
+            <div class="product-item">
+                <div class="overlay">
+                    <a href="" class="product-thumb">
+                        <img src="/images/divisainfermiere.jpg" alt="" />
+                    </a>
+
+                </div>
+                <div class="product-info">
+                    <span>XS - S - M - L - XL - XXL</span>
+                    <a href="">T-Shirt Grigia</a>
+                </div>
+
+            </div>
+            <div class="product-item">
+                <div class="overlay">
+                    <a href="" class="product-thumb">
+                        <img src="/images/tutapilota.png" alt="" />
+                    </a>
+                </div>
+                <div class="product-info">
+                    <span>XS - S - M - L - XL - XXL</span>
+                    <a href="">T-Shirt Grigia</a>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <br><br><br>
+
+    <section class="section new-arrival">
+        <div class="title">
+            <h1>Accessori</h1>
+            <p>All the latest picked from designer of our store</p>
+        </div>
+
+        <div class="product-center">
+            <div class="product-item">
+                <div class="overlay">
+                    <a href="" class="product-thumb">
+                        <img src="./images/cappellouomo1.jpeg" alt="" />
+                    </a>
+
+                </div>
+                <div class="product-info">
+                    <span>boh</span>
+                    <a href="">Cappello-Uomo</a>
+                </div>
+
+            </div>
+            <div class="product-item">
+                <div class="overlay">
+                    <a href="" class="product-thumb">
+                        <img src="./images/cappellouomo2.jpeg" alt="" />
+                    </a>
+                </div>
+
+                <div class="product-info">
+                    <span>XS - S - M - L - XL - XXL</span>
+                    <a href="">T-Shirt Grigia</a>
+                </div>
+
+            </div>
+            <div class="product-item">
+                <div class="overlay">
+                    <a href="" class="product-thumb">
+                        <img src="./images/cappellodonna1.jpeg" alt="" />
+                    </a>
+
+                </div>
+                <div class="product-info">
+                    <span>XS - S - M - L - XL - XXL</span>
+                    <a href="">T-Shirt Grigia</a>
+                </div>
+
+            </div>
+            <div class="product-item">
+                <div class="overlay">
+                    <a href="" class="product-thumb">
+                        <img src="./images/penna.jpeg" alt="" />
+                    </a>
+                </div>
+                <div class="product-info">
+                    <span>XS - S - M - L - XL - XXL</span>
+                    <a href="">T-Shirt Grigia</a>
+                </div>
+
+            </div>
+            <div class="product-center">
+                <div class="product-item">
+                    <div class="overlay">
+                        <a href="" class="product-thumb">
+                            <img src="/images/portachiavi2.jpeg" alt="" />
+                        </a>
+
+                    </div>
+                    <div class="product-info">
+                        <span>XS - S - M - L - XL - XXL</span>
+                        <a href="">T-Shirt Grigia</a>
+                    </div>
+
+                </div>
+                <div class="product-item">
+                    <div class="overlay">
+                        <a href="" class="product-thumb">
+                            <img src="/images/portachivi1.jpeg" alt="" />
+                        </a>
+                    </div>
+
+                    <div class="product-info">
+                        <span>XS - S - M - L - XL - XXL</span>
+                        <a href="">T-Shirt Grigia</a>
+                    </div>
+
+                </div>
+                <div class="product-item">
+                    <div class="overlay">
+                        <a href="" class="product-thumb">
+                            <img src="./images/portatessereuomo.jpg" alt="" />
+                        </a>
+
+                    </div>
+                    <div class="product-info">
+                        <span>XS - S - M - L - XL - XXL</span>
+                        <a href="">T-Shirt Grigia</a>
+                    </div>
+
+                </div>
+                <div class="product-item">
+                    <div class="overlay">
+                        <a href="" class="product-thumb">
+                            <img src="./images/aggenda.jpg" alt="" />
+                        </a>
+                    </div>
+                    <div class="product-info">
+                        <span>XS - S - M - L - XL - XXL</span>
+                        <a href="">T-Shirt Grigia</a>
+                    </div>
+
+                </div>
+    </section>
+    <br>
+
+    <!-- Contact -->
+    <section class="section contact">
+        <div class="row">
+            <div class="col">
+                <h2>Contatti</h2>
+                <p>~ Sicilia | Catania</p>
+                <p>~ +39 00000000</p>
+                <p>corallodamiano1@gmail.com</p>
+                <img src="/images/whatsappicon.png" width="35px" alt="">
             </div>
 
+        </div>
+    </section>
 
-            <!--==================== DISCOVER ====================-->
-            <section class="discover section" id="discover">
-                <h2 class="section__title">Discover the most <br> attractive places</h2>
-
-                <div class="discover__container container swiper-container">
-                    <div class="swiper-wrapper">
-                        <!--==================== DISCOVER 1 ====================-->
-                        <div class="discover__card swiper-slide">
-                            <img src="assets/img/discover1.jpg" alt="" class="discover__img">
-                            <div class="discover__data">
-                                <h2 class="discover__title">Bali</h2>
-                                <span class="discover__description">24 tours available</span>
-                            </div>
-                        </div>
-
-                        <!--==================== DISCOVER 2 ====================-->
-                        <div class="discover__card swiper-slide">
-                            <img src="assets/img/discover2.jpg" alt="" class="discover__img">
-                            <div class="discover__data">
-                                <h2 class="discover__title">Hawaii</h2>
-                                <span class="discover__description">15 tours available</span>
-                            </div>
-                        </div>
-
-                        <!--==================== DISCOVER 3 ====================-->
-                        <div class="discover__card swiper-slide">
-                            <img src="assets/img/discover3.jpg" alt="" class="discover__img">
-                            <div class="discover__data">
-                                <h2 class="discover__title">Hvar</h2>
-                                <span class="discover__description">18 tours available</span>
-                            </div>
-                        </div>
-
-                        <!--==================== DISCOVER 4 ====================-->
-                        <div class="discover__card swiper-slide">
-                            <img src="assets/img/discover4.jpg" alt="" class="discover__img">
-                            <div class="discover__data">
-                                <h2 class="discover__title">Whitehaven</h2>
-                                <span class="discover__description">32 tours available</span>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </section>
-
-
-
-            <!--==================== VIDEO ====================-->
-            <section id="video" class="video section">
-                <h2 class="section__title">Video</h2>
-
-                <div class="video__container container">
-                    <p class="video__description">Find out more with our video of the most beautiful and pleasant places for you and your family.
-                    </p>
-
-                    <div class="video__content">
-                        <video id="video-file">
-                            <source src="assets/video/video.mp4" type="video/mp4">
-                        </video>
-
-                        <button class="button button--flex video__button" id="video-button">
-                            <i class="ri-play-line video__button-icon" id="video-icon"></i>
-                        </button>
-                    </div>
-                </div>
-            </section>
-
-
-
-
-
-
-            <!--==================== SPONSORS ====================-->
-            <section class="sponsor section">
-                <div class="sponsor__container container grid">
-                    <div class="sponsor__content">
-                        <img src="assets/img/jhk-logo.png" alt="" class="sponsor__img">
-                    </div>
-                    <div class="sponsor__content">
-                        <img src="assets/img/fruit.png" alt="" class="sponsor__img">
-                    </div>
-                    <div class="sponsor__content">
-                        <img src="assets/img/fruit.png" alt="" class="sponsor__img">
-                    </div>
-                    <div class="sponsor__content">
-                        <img src="assets/img/fruit.png" alt="" class="sponsor__img">
-                    </div>
-                </div>
-            </section>
-    </main>
-
-    <!--==================== FOOTER ====================-->
-    <div id="foooter">
-        <footer class="footer section">
-            <div class="footer__container container grid">
-                <div class="footer__content grid">
-                    <div class="footer__data">
-                        <h3 class="footer__title"><img src="/assets/img/logo1.png" width="240px" alt=""></h3>
-                        <p class="footer__description">Travel you choose the <br> destination, we offer you the <br> experience.
-                        </p>
-                        <div>
-                            <a href="https://www.facebook.com/" target="_blank" class="footer__social">
-                                <i><img src="/assets/img/face.png" width="65px" alt=""></i>
-                            </a>
-                            <a href="https://www.instagram.com/" target="_blank" class="footer__social">
-                                <i><img src="/assets/img/insta.png" width="48px" alt=""></i>
-                            </a>
-                        </div>
-                    </div>
-
-                    <div class="footer__data">
-                        <h3 class="footer__link">Link</h3>
-                        <br>
-                        <ul>
-                            <li class="footer__item">
-                                <a href="" class="footer__link">Chi siamo</a>
-                            </li>
-                            <li class="footer__item">
-                                <a href="" class="footer__link">Abbigliamento</a>
-                            </li>
-                            <li class="footer__item">
-                                <a href="" class="footer__link">Video</a>
-                            </li>
-                        </ul>
-                    </div>
-
-
-
-                    <div class="footer__data">
-                        <h3 class="footer__link">Contatti</h3>
-                        <br>
-                        <ul>
-                            <li class="footer__item">
-                                <a href="" class="footer__link">Corallodamiano1@gmail.com</a>
-                            </li>
-                            <li class="footer__item">
-                                <a href="" class="footer__link">+39 000000000</a>
-                            </li>
-                            <li class="footer__item" id="maps">
-                                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d101303.36938951815!2d15.007477974367264!3d37.49069047640248!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1313e2dd761525b5%3A0x58fe876151c83cf0!2sCatania%20CT!5e0!3m2!1sit!2sit!4v1639594437997!5m2!1sit!2sit"
-                                    width="300" height="200" style="border:5;" allowfullscreen="" loading="lazy"></iframe></a>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-
-                <div class="footer__rights">
-                    <p class="footer__copy">&#169; 2021 Rosso Corallo. All rigths reserved.</p>
-
-                </div>
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="row">
+            <div class="col d-flex">
+                <h4>Link</h4>
+                <a href="">Home</a>
+                <a href="">Chi siamo</a>
+                <a href="">Abbigliamento</a>
+                <a href="">Video</a>
             </div>
-        </footer>
-    </div>
 
-    <!--========== SCROLL UP ==========-->
-    <a href="#" class="scrollup" id="scroll-up">
-        <i class="ri-arrow-up-line scrollup__icon"></i>
-    </a>
-
-    <!--=============== SCROLL REVEAL===============-->
-    <script src="assets/js/scrollreveal.min.js"></script>
-
-    <!--=============== SWIPER JS ===============-->
-    <script src="assets/js/swiper-bundle.min.js"></script>
-
-    <!--=============== MAIN JS ===============-->
-    <script src="assets/js/main.js"></script>
+            <div class="col d-flex">
+                <a href="https://www.facebook.com/rossocorallo74"><span><i class='bx bxl-facebook-square'></i></span></a>
+            </div>
+        </div>
+    </footer>
+    <hr>
+    <br>
+    <p id="copyright">© Copyright 2021 Rosso Corallo. Tutti i diritti riservati.</p>
+    <br>
 </body>
+<script>
+    const hamburer = document.querySelector('.hamburger')
+    const navList = document.querySelector('.nav-list')
+
+    hamburer.addEventListener('click', () => {
+        navList.classList.toggle('open')
+    })
+</script>
 
 </html>
