@@ -62,10 +62,23 @@ li {
     width: 100%;
 }
 
-.home h2 {
+.home h1 {
+    background-color: rgba(253, 253, 253, 0.781);
+    font-size: 40px;
+    width: 440px;
     margin-top: 20px;
-    color: white;
+    color: rgb(0, 0, 0);
     margin-left: 70px;
+    font-family: 'Roboto Mono', monospace;
+}
+
+@media(max-width:991px) {
+    .home h1 {
+        font-family: 'Roboto Mono', monospace;
+        margin-left: 60px;
+        width: 265px;
+        text-align: center;
+    }
 }
 
 
@@ -476,40 +489,26 @@ Hero Area
     }
 }
 
-#about {
+.about {
+    width: 100%;
+    padding: 50px 70px;
     background-color: #222;
 }
 
-.about__data {
-    text-align: center;
+.about-text {
+    margin-left: 100px;
     color: white;
+    width: 550px;
 }
 
-.about__container {
-    row-gap: 2.5rem;
-}
-
-.about__description {
-    text-align: center;
-    width: 500px;
-    margin-left: 80px;
-    margin-bottom: var(--mb-2);
-}
-
-@media screen and (min-width: 768px) {
-    .about__container {
-        grid-template-columns: repeat(2, 1fr);
-        align-items: center;
+@media only screen and (max-width: 567px) {
+    .about {
+        width: 100%;
     }
-    .about__data,
-    .about__title {
-        text-align: initial;
-    }
-    .about__title {
-        margin-bottom: var(--mb-1-5);
-    }
-    .about__description {
-        margin-bottom: var(--mb-2);
+    .about-text {
+        width: 330px;
+        margin-left: -50px;
+        text-align: center;
     }
 }
 
