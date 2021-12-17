@@ -58,26 +58,39 @@ li {
 }
 
 .home {
+    margin-left: 52px;
     background-image: url('./images/homeprova.jpg');
-    width: 100%;
+    width: 92%;
 }
 
 .home h1 {
-    background-color: rgba(253, 253, 253, 0.781);
-    font-size: 40px;
-    width: 440px;
+    font-size: 50px;
+    width: 800px;
     margin-top: 20px;
+    color: rgb(255, 255, 255);
+    margin-left: 180px;
+    font-family: 'Permanent Marker', cursive;
+    text-align: center;
+}
+
+.home h2 {
+    text-align: center;
+    font-size: 30px;
     color: rgb(0, 0, 0);
-    margin-left: 70px;
-    font-family: 'Roboto Mono', monospace;
+    font-family: 'Permanent Marker', cursive;
+    margin-top: 60px;
 }
 
 @media(max-width:991px) {
     .home h1 {
+        margin-top: 185px;
         font-family: 'Roboto Mono', monospace;
-        margin-left: 60px;
-        width: 265px;
-        text-align: center;
+        margin-left: -214px;
+        font-size: 27px;
+    }
+    .home h2 {
+        margin-top: 110px;
+        color: white;
     }
 }
 
@@ -321,89 +334,6 @@ header label {
 
 /* 
 =================
-Navigation
-=================
-*/
-
-.navigation {
-    position: relative;
-    height: 6rem;
-    line-height: 6rem;
-}
-
-.nav-center {
-    justify-content: space-between;
-}
-
-.nav-center .nav-item:not(:last-child) {
-    margin-right: .5rem;
-}
-
-.nav-center .nav-link {
-    color: #222;
-    font-size: 1.7rem;
-    padding: 1rem;
-    transition: all 300ms ease-in-out;
-}
-
-.nav-center .nav-link:hover {
-    color: red;
-}
-
-.nav-center .hamburger {
-    display: none;
-    font-size: 2.3rem;
-    color: var(--black);
-    cursor: pointer;
-}
-
-@media only screen and (max-width: 768px) {
-    .nav-list {
-        position: fixed;
-        top: 10%;
-        left: -35rem;
-        flex-direction: column;
-        align-items: flex-start;
-        box-shadow: 5px 5px 10px rgba(0, 0, 0, .2);
-        background-color: white;
-        height: 100%;
-        width: 0%;
-        max-width: 35rem;
-        z-index: 100;
-        transition: all 300ms ease-in-out;
-    }
-    .nav-list.open {
-        left: 0;
-        width: 100%;
-    }
-    .nav-list .nav-item {
-        margin: 0 0 1rem 0;
-        width: 100%;
-    }
-    .nav-list .nav-link {
-        font-size: 2rem;
-        color: var(--black)
-    }
-    .nav-center .hamburger {
-        display: block;
-        color: var(--black);
-        font-size: 3rem;
-    }
-    .icons {
-        display: none;
-    }
-    .top-nav ul {
-        display: none;
-    }
-    .top-nav div {
-        justify-content: center;
-        height: 3rem;
-    }
-}
-
-
-/* 
-=================
 Hero Area
 =================
 */
@@ -521,6 +451,7 @@ Hero Area
 }
 
 .title h1 {
+    font-family: 'Permanent Marker', cursive;
     font-size: 3rem;
     text-transform: uppercase;
     margin-bottom: 1rem;
