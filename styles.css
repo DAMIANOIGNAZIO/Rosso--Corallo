@@ -83,19 +83,19 @@ li {
 
 @media(max-width:991px) {
     .home {
-        margin-top: 50px;
+        margin-top: 30px;
         margin-left: 3px;
-        width: 139%;
+        width: 98%;
         height: 610px;
     }
     .home h1 {
-        margin-top: 185px;
+        margin-top: 60px;
         font-family: 'Roboto Mono', monospace;
-        margin-left: -110px;
-        font-size: 42px;
+        margin-left: -220px;
+        font-size: 35px;
     }
     .home h2 {
-        margin-top: 110px;
+        margin-top: 160px;
         color: white;
     }
 }
@@ -196,6 +196,7 @@ header label {
 @media(max-width:991px) {
     header {
         padding: 2px;
+        width: 65%;
     }
     header label {
         display: initial;
