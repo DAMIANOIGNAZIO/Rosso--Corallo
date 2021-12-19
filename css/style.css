@@ -89,10 +89,11 @@ section {
 }
 
 .header .logo i {
-    color: #ffffff;
+    color: #000000;
 }
 
 .header .navbar a {
+    font-family: 'Fredoka One', cursive;
     margin-left: 2rem;
     font-size: 1.7rem;
     color: #080808;
@@ -244,13 +245,15 @@ section {
 }
 
 .home .box .content span {
+    font-family: 'Fredoka One', cursive;
     font-size: 4rem;
-    color: #ffffff;
+    color: #222;
 }
 
 .home .box .content p {
+    font-family: 'Fredoka One', cursive;
     line-height: 2;
-    color: #ffffff;
+    color: #222;
     font-size: 1.5rem;
     padding: 1rem 0;
 }
