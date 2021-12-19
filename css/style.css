@@ -254,7 +254,7 @@ section {
     font-family: 'Fredoka One', cursive;
     line-height: 2;
     color: #222;
-    font-size: 1.5rem;
+    font-size: 20px;
     padding: 1rem 0;
 }
 
@@ -541,10 +541,13 @@ section {
         text-align: center;
     }
     .home .box .content span {
-        font-size: 3rem;
+        margin-top: 70px;
+        font-size: 35px;
     }
-    .home .box .content h3 {
-        font-size: 4rem;
+    .home .box .content p {
+        color: white;
+        margin-top: 200px;
+        font-size: 30px;
     }
 }
 
