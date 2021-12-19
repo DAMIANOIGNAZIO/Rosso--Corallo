@@ -21,7 +21,7 @@ html {
 }
 
 html::-webkit-scrollbar {
-    width: 1rem;
+    width: 5px;
 }
 
 html::-webkit-scrollbar-track {
@@ -29,7 +29,7 @@ html::-webkit-scrollbar-track {
 }
 
 html::-webkit-scrollbar-thumb {
-    background: #10221b;
+    background: #ff0000;
 }
 
 section {
@@ -605,4 +605,23 @@ section {
     .heading {
         font-size: 3rem;
     }
+}
+
+.gotopbtn {
+    border-radius: 15px;
+    position: fixed;
+    width: 40px;
+    height: 40px;
+    background: red;
+    bottom: 20px;
+    right: 20px;
+    text-decoration: none;
+    text-align: center;
+    line-height: 42px;
+    color: white;
+    font-size: 25px;
+}
+
+.gotopbtn:hover {
+    background-color: rgb(68, 66, 66);
 }
