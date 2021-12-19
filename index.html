@@ -2,70 +2,108 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
-    <link href="https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css" rel="stylesheet" />
-    <link rel="stylesheet" href="styles.css" />
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="icon" href="./images/icona.png">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <title>Rosso Corallo (Abbigliamento Personalizzato Catania)</title>
+    <title>Rosso Corallo (Abbigliamento - Personalizzato)</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="css/style.css">
 </head>
 
 <body>
-    <header>
-        <a href="#" class="logo"><img src="./images/logo.png" width="215px" height="70px" alt=""></a>
 
-        <input type="checkbox" id="menu-bar">
-        <label for="menu-bar"><img src="./images/menu.png" width="90px" alt=""></label>
+    <header class="header">
+
+        <a href="#" class="logo"><img src="./images/logo.png" width="230px" height="70px" alt=""></a>
+
         <nav class="navbar">
-            <ul>
-                <li><a href="#home">Home</a></li>
-                <li><a href="#chi siamo">Chi siamo</a></li>
-                <li><a href="#">Abbigliamento</a>
-                    <ul>
-                        <li><a href="#uomo">UOMO</a></li>
-                        <li><a href="#donna">DONNA</a></li>
-                        <li><a href="#lavoro">LAVORO</a></li>
-                        <li><a href="#bambini">BAMBINI</a></li>
-                        <li><a href="#accessori">ACCESSORI ▾</a>
-                            <ul>
-                                <li><a href="#">Per Uomo</a></li>
-                                <li><a href="#">Per Donna</a></li>
-                                <li><a href="#">Per Tutti</a></li>
-                            </ul>
-                        </li>
-                    </ul>
-                </li>
-                <li><a href="#contatti">Contatti</a></li>
-            </ul>
+            <div id="nav-close" class="fas fa-times"></div>
+            <a href="#home">home</a>
+            <a href="#about">Chi siamo</a>
+            <a href="#shop">Abbigliamento</a>
+            <a href="#packages">contatti</a>
         </nav>
-    </header>
-    <br><br><br>
-    <div class="home">
-        <br><br><br><br>
-        <h1>scegli il tuo capo<br>e Personalizzalo<br>a tua scelta</h1>
-        <br><br><br><br><br>
-        <h2>ricami - stampe </h2><br><br><br><br><br><br>
-    </div>
-    <br><br>
 
-    <br><br><br>
-    <section class="about">
-        <div class="main">
-            <div class="about-text">
-                <br><br>
-                <h2>Chi siamo?</h2>
-                <br>
-                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Corrupti nobis rem eius expedita dignissimos?</p>
-                <br><br><br>
-            </div>
+        <div class="icons">
+            <div id="menu-btn" class="fas fa-bars"></div>
+            <a href="#"></a>
+            <div id="search-btn"></div>
         </div>
+
+    </header>
+
+    <!-- header section ends -->
+
+    <!-- search form  -->
+
+    <div class="search-form">
+        <div id="close-search" class="fas fa-times"></div>
+        <form action="">
+            <input type="search" name="" placeholder="search here..." id="search-box">
+            <label for="search-box" class="fas fa-search"></label>
+        </form>
+    </div>
+
+    <!-- home section starts  -->
+
+    <section class="home" id="home">
+
+        <div class="swiper home-slider">
+
+            <div class="swiper-wrapper">
+
+                <div class="swiper-slide">
+                    <div class="box" style="background: url('https://www.seriprintmilano.it/files/blog/image/shutterstock_541868698.jpg') no-repeat; ">
+                        <div class="content">
+                            <span>never stop</span>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit unde ex molestias soluta consequatur saepe aliquam, excepturi delectus consequuntur minus!</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="swiper-slide">
+                    <div class="box second" style="background: url('https://blog.sadesign.it/wp-content/uploads/2020/12/macchina-ricami-personalizzati-1.jpg') no-repeat;">
+                        <div class="content">
+                            <span>make tour</span>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit unde ex molestias soluta consequatur saepe aliquam, excepturi delectus consequuntur minus!</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="swiper-slide">
+                    <div class="box" style="background: url(./images/slide.jpg) no-repeat;">
+                        <div class="content">
+                            <span>explore the</span>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit unde ex molestias soluta consequatur saepe aliquam, excepturi delectus consequuntur minus!</p>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div>
+
+        </div>
+
     </section>
-    <br><br>
-    <!-- New Arrivals -->
+
+
+    <section class="about" id="about">
+
+        <div class="image">
+            <img src="./images/home.jpg" alt="">
+        </div>
+
+        <div class="content">
+            <h3>Chi siamo?</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Neque voluptates corrupti natus necessitatibus beatae voluptatibus, deserunt quo soluta minima libero laborum, corporis error esse vitae placeat blanditiis reiciendis vel? Minima.</p>
+        </div>
+
+    </section>
+
     <section id="uomo" class="section new-arrival">
         <div class="title">
             <h1>Abbigliamento UOMO</h1>
@@ -170,19 +208,26 @@
                     <span>XS - S - M - L - XL - XXL</span>
                     <a href="">T-Shirt Grigia</a>
                 </div>
-
+            </div>
+            <div class="product-item">
+                <div class="overlay">
+                    <a href="" class="product-thumb">
+                        <img src="./images/./Uomo/pantaloneuomo2.jpg" alt="" />
+                    </a>
+                </div>
+                <div class="product-info">
+                    <span>XS - S - M - L - XL - XXL</span>
+                    <a href="">T-Shirt Grigia</a>
+                </div>
             </div>
         </div>
     </section>
-    <br><br><br><br><br>
-    <section id="chi siamo" class="section contact">
-        <div class="row">
-            <div class="col">
-                <h2>Chi siamo?</h2>
-                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ipsam ab ipsa quo dignissimos sit voluptas odio dolores, fugiat accusamus eligendi officiis suscipit explicabo cum corrupti rem aut sint iste eos.</p>
-            </div>
-            <br><br><br>
-        </div>
+    <br><br>
+    <section class="about" id="about" style="background-image: url(./images/footer-bg.jpg);">
+        <br><br>
+        <h2>ciao</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque aperiam esse ipsam molestias accusamus eaque beatae at. Ad cupiditate quia neque illum, modi deleniti optio aspernatur quos impedit, quibusdam odit?</p>
+        <br><br>
     </section>
     <br><br>
     <section id="donna" class="section new-arrival">
@@ -220,6 +265,30 @@
                 <div class="overlay">
                     <a href="" class="product-thumb">
                         <img src="./images/./Donna/polodonna2.jpeg" alt="" />
+                    </a>
+                </div>
+                <div class="product-info">
+                    <span>XS - S - M - L - XL - XXL</span>
+                    <a href="">T-Shirt Grigia</a>
+                </div>
+
+            </div>
+            <div class="product-item">
+                <div class="overlay">
+                    <a href="" class="product-thumb">
+                        <img src="./images/Donna/polodonna1.jpeg" alt="" />
+                    </a>
+                </div>
+                <div class="product-info">
+                    <span>XS - S - M - L - XL - XXL</span>
+                    <a href="">T-Shirt Grigia</a>
+                </div>
+
+            </div>
+            <div class="product-item">
+                <div class="overlay">
+                    <a href="" class="product-thumb">
+                        <img src="./images/Donna/polodonna1.jpeg" alt="" />
                     </a>
                 </div>
                 <div class="product-info">
@@ -290,18 +359,39 @@
                     </div>
 
                 </div>
+                <div class="product-item">
+                    <div class="overlay">
+                        <a href="" class="product-thumb">
+                            <img src="./images/./Donna/giubottodonna1.jpg" alt="" />
+                        </a>
+                    </div>
+                    <div class="product-info">
+                        <span>XS - S - M - L - XL - XXL</span>
+                        <a href="">T-Shirt Grigia</a>
+                    </div>
+
+                </div>
+                <div class="product-item">
+                    <div class="overlay">
+                        <a href="" class="product-thumb">
+                            <img src="./images/./Donna/giubottodonna1.jpg" alt="" />
+                        </a>
+                    </div>
+                    <div class="product-info">
+                        <span>XS - S - M - L - XL - XXL</span>
+                        <a href="">T-Shirt Grigia</a>
+                    </div>
+
+                </div>
     </section>
     <br><br>
-    <section id="chi siamo" class="section contact">
-        <div class="row">
-            <div class="col">
-                <h2>Chi siamo?</h2>
-                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ipsam ab ipsa quo dignissimos sit voluptas odio dolores, fugiat accusamus eligendi officiis suscipit explicabo cum corrupti rem aut sint iste eos.</p>
-            </div>
-            <br><br><br>
-        </div>
+    <section class="about" id="about" style="background-image: url(./images/footer-bg.jpg);">
+        <br><br>
+        <h2>ciao</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque aperiam esse ipsam molestias accusamus eaque beatae at. Ad cupiditate quia neque illum, modi deleniti optio aspernatur quos impedit, quibusdam odit?</p>
+        <br><br>
     </section>
-    <br><br><br><br>
+    <br><br>
     <section id="bambini" class="section new-arrival">
         <div class="title">
             <h1>Abbigliamento Bambini</h1>
@@ -410,16 +500,13 @@
         </div>
     </section>
     <br><br>
-    <section id="chi siamo" class="section contact">
-        <div class="row">
-            <div class="col">
-                <h2>Chi siamo?</h2>
-                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ipsam ab ipsa quo dignissimos sit voluptas odio dolores, fugiat accusamus eligendi officiis suscipit explicabo cum corrupti rem aut sint iste eos.</p>
-            </div>
-            <br><br><br>
-        </div>
+    <section class="about" id="about" style="background-image: url(./images/footer-bg.jpg);">
+        <br><br>
+        <h2>ciao</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque aperiam esse ipsam molestias accusamus eaque beatae at. Ad cupiditate quia neque illum, modi deleniti optio aspernatur quos impedit, quibusdam odit?</p>
+        <br><br>
     </section>
-    <br><br><br>
+    <br><br>
     <section id="lavoro" class="section new-arrival">
         <div class="title">
             <h1>Abbigliamento da Lavoro</h1>
@@ -528,7 +615,14 @@
         </div>
     </section>
 
-    <br><br><br>
+    <br><br>
+    <section class="about" id="about" style="background-image: url(./images/footer-bg.jpg);">
+        <br><br>
+        <h2>ciao</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque aperiam esse ipsam molestias accusamus eaque beatae at. Ad cupiditate quia neque illum, modi deleniti optio aspernatur quos impedit, quibusdam odit?</p>
+        <br><br>
+    </section>
+    <br><br>
 
     <section id="accessori" class="section new-arrival">
         <div class="title">
@@ -641,48 +735,52 @@
     </section>
     <br>
 
-    <!-- Contact -->
-    <section id="contatti" class="section contact">
-        <div class="row">
-            <div class="col">
-                <h2>Contatti</h2>
-                <p>~ Sicilia | Catania</p>
-                <p>~ +39 00000000</p>
-                <p>corallodamiano1@gmail.com</p>
-                <img src="/images/whatsappicon.png" width="35px" alt="">
+    <section class="clients">
+        <div class="swiper clients-slider">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide silde"><img src="./images/fruit.png" alt=""> </div>
+                <div class="swiper-slide silde"><img src="./images/jhk-logo.png" alt=""> </div>
+                <div class="swiper-slide silde"><img src="./images/Givova.png" alt=""> </div>
             </div>
-
         </div>
     </section>
 
-    <!-- Footer -->
-    <footer class="footer">
-        <div class="row">
-            <div class="col d-flex">
-                <h4>Link</h4>
-                <a href="">Home</a>
-                <a href="">Chi siamo</a>
-                <a href="">Abbigliamento</a>
-                <a href="">Contatti</a>
+    <section class="footer">
+
+        <div class="box-container">
+
+            <div class="box">
+                <h3>Link</h3>
+                <a href="#home">home</a>
+                <a href="#about">Chi sioamo</a>
+                <a href="#shop">Abbigliamento</a>
+                <a href="#packages">contatti</a>
             </div>
 
-            <div class="col d-flex">
-                <a href="https://www.facebook.com/rossocorallo74"><span><i class='bx bxl-facebook-square'></i></span></a>
+            <div class="box">
+                <h3>contatti</h3>
+                <a href="#"> <i class="fas fa-phone"></i> +39 000000000 </a>
+                <a href="#"> <i class="fas fa-envelope"></i> corallodamiano1@gmail.com </a>
+                <a href="#"> <i class="fas fa-map"></i> Sicilia, catania - 95021 </a>
             </div>
+
+            <div class="box">
+                <h3>Seguimi su</h3>
+                <a href="#"> <i class="fab fa-facebook-f"></i> facebook </a>
+                <a href="#"> <i class="fab fa-instagram"></i> instagram </a>
+            </div>
+
         </div>
-    </footer>
-    <hr>
-    <br>
-    <p id="copyright">© Copyright 2021 Rosso Corallo. Tutti i diritti riservati.</p>
-    <br>
-</body>
-<script>
-    const hamburer = document.querySelector('.hamburger')
-    const navList = document.querySelector('.nav-list')
 
-    hamburer.addEventListener('click', () => {
-        navList.classList.toggle('open')
-    })
-</script>
+        <div class="credit">creato da <span>Rosso Corallo</span> | tutti i diritti riservati</div>
+
+    </section>
+
+    <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+
+    <!-- custom js file link  -->
+    <script src="js/script.js"></script>
+
+</body>
 
 </html>
