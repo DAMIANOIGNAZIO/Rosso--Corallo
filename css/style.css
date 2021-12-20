@@ -625,3 +625,44 @@ section {
 .gotopbtn:hover {
     background-color: rgb(68, 66, 66);
 }
+
+form {
+    background-color: rgba(0, 0, 0, 0.514);
+    border-radius: 20px;
+    margin-left: 40%;
+    width: 65%;
+    text-align: center;
+}
+
+form strong {
+    margin-left: 15px;
+    font-family: 'Courier New', Courier, monospace;
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+}
+
+form input {
+    border-radius: 5px;
+    border: 2px;
+    height: 25px;
+    margin-left: 5px;
+}
+
+form textarea {
+    border-radius: 10px;
+    margin-left: 5px;
+}
+
+form #button1 {
+    background-color: rgb(105, 105, 240);
+    color: white;
+    height: 40px;
+    width: 50px;
+}
+
+form #button2 {
+    background-color: rgb(250, 6, 6);
+    color: white;
+    height: 35px;
+    width: 55px;
+}
