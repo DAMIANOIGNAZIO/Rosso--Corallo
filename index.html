@@ -24,16 +24,25 @@
             <div id="nav-close" class="fas fa-times"></div>
             <a href="#home">home</a>
             <a href="#about">Chi siamo</a>
-            <a href="#shop">Abbigliamento</a>
+            <div class="dropdown">
+                <button onclick="myFunction()" class="dropbtn">Abbigliamento &#9660</button>
+                <div id="myDropdown" class="dropdown-content">
+                    <a href="#uomo">UOMO</a>
+                    <a href="#donna">DONNA</a>
+                    <a href="#bambini">BAMBINI</a>
+                    <a href="#lavoro">LAVORO</a>
+                    <a href="#accessori">ACCESSORI</a>
+                </div>
+            </div>
             <a href="#footer">Contatti</a>
         </nav>
+
 
         <div class="icons">
             <div id="menu-btn" class="fas fa-bars"></div>
             <a href="#"></a>
             <div id="search-btn"></div>
         </div>
-
     </header>
 
     <!-- header section ends -->
@@ -66,6 +75,7 @@
         </div>
 
     </section>
+
     <section class="about" id="about">
         <div class="image">
             <img src="./images/home.jpg" alt="">
@@ -74,22 +84,19 @@
             <h3>Chi siamo?</h3>
             <p>Rosso Corallo è un negozio di Abbigliamento,nato con lo scopo di dare la possibilità al cliente di Personalizzare il proprio Abbigliamento,Con la possibilità di Poter scegliere come Personalizzare l'Abbigliamento scelto in autonomia, oppure
                 affidarvi a Giuseppe Corallo esperto nel settore,sempre disponibile ad accompagnarvi e consigliarvi nell’acquisto e nella personallizzazione.</p>
-            <h3>Cosa diamo?</h3>
+            <h3>Cosa offriamo?</h3>
             <p>La possibilità di acquistare Abbigliamento da tutti i giorni,da lavoro,da sport e anche per i bambini,e personalizzarlo tramite la stampa a caldo ho il ricamo</p>
         </div>
     </section>
     <br><br><br>
 
-    <div class="publicità">
+    <div id="uomo" class="publicità">
         <br><br>
         <h1>UOMO</h1>
         <br><br>
     </div>
 
     <section id="uomo" class="section new-arrival">
-        <div class="title">
-            <h1>Abbigliamento UOMO</h1>
-        </div>
 
         <div class="product-center">
             <div class="product-item">
@@ -205,17 +212,13 @@
         </div>
     </section>
     <br><br>
-    <div class="publicità">
+    <div id="donna" class="publicità">
         <br><br>
         <h1>DONNA</h1>
         <br><br>
     </div>
     <br><br>
     <section id="donna" class="section new-arrival">
-        <div class="title">
-            <h1>Abbigliamento Donna</h1>
-        </div>
-
         <div class="product-center">
             <div class="product-item">
                 <div class="overlay">
@@ -366,7 +369,7 @@
                 </div>
     </section>
     <br><br>
-    <div class="publicità">
+    <div id="bambini" class="publicità">
         <br><br>
         <h1>BAMBINI</h1>
         <br><br>
@@ -476,7 +479,7 @@
         </div>
     </section>
     <br><br>
-    <div class="publicità">
+    <div id="lavoro" class="publicità">
         <br><br>
         <h1>LAVORO</h1>
         <br><br>
@@ -587,7 +590,7 @@
     </section>
 
     <br><br>
-    <div class="publicità">
+    <div id="accessori" class="publicità">
         <br><br>
         <h1>Accessori</h1>
         <br><br>
@@ -595,9 +598,6 @@
     <br><br>
 
     <section id="accessori" class="section new-arrival">
-        <div class="title">
-            <h1>ACCESSORI</h1>
-        </div>
 
         <div class="product-center">
             <div class="product-item">
@@ -743,7 +743,7 @@
 
         </div>
 
-        <div class="credit">creato da <span>Rosso Corallo</span> | tutti i diritti riservati</div>
+        <div class="credit">creato da <span>Rosso Corallo</span> | &#169 tutti i diritti riservati</div>
     </section>
 
 

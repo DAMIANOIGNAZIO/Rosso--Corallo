@@ -630,6 +630,52 @@ section {
     text-align: center;
     background: rgb(131, 58, 180);
     background: linear-gradient(90deg, rgba(131, 58, 180, 1) 0%, rgba(253, 29, 29, 1) 50%, rgba(252, 176, 69, 1) 100%);
-    color: white;
+    color: #222;
     font-size: 20px;
+}
+
+.dropbtn {
+    background-color: #3498db00;
+    color: #222;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+}
+
+.dropbtn:hover,
+.dropbtn:focus {
+    background-color: #297fb900;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    text-align: left;
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 10%;
+    overflow: auto;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    font-family: 'Fredoka One', cursive;
+    color: #080808;
+    padding: 10px 15px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown a:hover {
+    background-color: #a19b9b;
+}
+
+.show {
+    display: block;
 }
