@@ -21,7 +21,7 @@ html {
 }
 
 html::-webkit-scrollbar {
-    width: 6px;
+    width: 4px;
 }
 
 html::-webkit-scrollbar-track {
@@ -247,13 +247,13 @@ section {
 .home .box .content span {
     font-family: 'Fredoka One', cursive;
     font-size: 4rem;
-    color: #222;
+    color: rgb(251, 251, 251);
 }
 
 .home .box .content p {
     font-family: 'Fredoka One', cursive;
     line-height: 2;
-    color: #222;
+    color: rgb(255, 255, 255);
     font-size: 20px;
     padding: 1rem 0;
 }
@@ -638,6 +638,13 @@ section {
     background: linear-gradient(90deg, rgba(131, 58, 180, 1) 0%, rgba(253, 29, 29, 1) 50%, rgba(252, 176, 69, 1) 100%);
     color: rgb(255, 255, 255);
     font-size: 20px;
+}
+
+.publicità p {
+    margin-left: 25%;
+    width: 50%;
+    font-size: 15px;
+    color: rgb(238, 238, 238);
 }
 
 .dropbtn {
